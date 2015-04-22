@@ -9,7 +9,7 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="stylesheets/homepages.css.scss">
+    <link rel="stylesheet" href="stylesheets/homepages.css.scss" href="http://fonts.googleapis.com/css?family=Indie+Flower">
 	
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     
@@ -21,39 +21,158 @@
 </head>
 <body>
 
-	<nav>
-		<ul class="navigation">
-			<li data-slide="1"><a href="#">Slide 1</a></li>
-			<li data-slide="2"><a href="#">Slide 2</a></li>
-			<li data-slide="3"><a href="#">Slide 3</a></li>
-			<li data-slide="4"><a href="#">Slide 4</a></li>
-		</ul>
-	</nav>
+<!-- 	<nav> -->
+
+
+ <nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!--Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#slide1"><img src=""><strong>Sydney Spraggins</strong></a>
+    </div>
+
+ <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id=".navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li data-slide="1"><a href="#slide1"><strong>Home</strong></a></li>
+		<li data-slide="2"><a href="#slide2"><strong>About Me</strong></a></li>
+		<li data-slide="3"><a href="#slide3"><strong>My Projects</strong></a></li>
+		<li data-slide="4"><a href="#slide4"><strong>Resume</strong></a></li>
+	  </ul>
+		 <form class="navbar-form navbar-left">
+	   <ul class="nav navbar-nav navbar-right">
+	   </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 	<div class="main">
 
-		<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5"></div>
+		<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+			<div class="container">
+				<div class="col-md-12">
+					<h1 class="names" id="sydney">Sydney Spraggins</h1>
+					<h2 class="names" id="wd">Web Developer.<span style="font-style: italic;">Bit of Me</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5"><a="slide2">
+
+		<div id="center">
+						<h1 id="bit"><span style="font-style: italic;">A tid bit about me...</span></h1>
+						<img id="mepic" src="http://i.imgur.com/7q5x5o9.jpg">
+						<h2 id="about">"My name is Sydney Spraggins and I am from a small town in northern California called Cottonwood. I have received my Bachelor's in Psychology, and now I am beginning my new adventure as a Web Developer."</h2>
+					</div>
+		
+	</div>
+
+
+<!-- 		<div class="slide" data-slide="2" data-stellar-background-ratio="0.5">
+					<div id="slide2">
+						<h1 id="bit"><span style="font-style: italic;">A tid bit about me...</span></h1>
+						<img id="mepic" src="http://i.imgur.com/7q5x5o9.jpg">
+						<h2 id="about">"My name is Sydney Spraggins and I am from a small town in northern California called Cottonwood. I have received my Bachelor's in Psychology, and now I am beginning my new adventure as a Web Developer."</h2>
+					</div>
 		</div>
 
-		<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5"></div>
-		</div>
 
-		<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5"></div>
-		</div>
+ -->
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5"><a="slide3">
 
-		<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5"></div>
+		<div id="center">
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+							<a href="
+						http://mythicaltictactoe.bitballoon.com" target="_blank">
+						<div class= "imageHolder">
+						  <img id="ttt" src="http://i.imgur.com/hXOvQ4e.png">
+						  <div class="caption"> Tic Tac Toe <br />HTML, CSS, JS, Angular, BitBallon</div> 
+							</div>
+						<h2 class="ttt2">Tic Tac Toe</h2>
+						</a>
+					
+					   
+					</div>
+					<div class="col-md-4">
+						<a href="
+						http://ocfitness.herokuapp.com" target="_blank">
+						<div class= "imageHolder">
+						<img id="oc" src="http://i.imgur.com/Hl2YC2k.png">
+						<div class="caption">Static Website<br /> HTML, CSS, Bootstrap, Heroku</div> 
+							</div>
+					    <h2 class="oc2">OC Fitness</h2>
+					    </a>
+						
+						
+					</div>
+					<div class="col-md-4">
+
+						<a href="
+							http://elephants-rhinos-d3.herokuapp.com" target="_blank">
+							<div class= "imageHolder">
+								<img id = "d3" src="http://i.imgur.com/dEDhbLB.png"/>
+								<div class="caption">Graphing Data<br /> HTMl, CSS, D3, JS, Heroku</div> 
+							</div>
+
+						<h2 class="d32">Elephants and Rhinos</h2>
+						</a>
+						
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
 
 
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5"><a="slide4">
+		<div class="center4">
+			<div class="container">
+				<div class="col-md-12">
+				<h2 id="myresume">My Resume</h2>
+				<!-- <a id="download" href="../images/sspragginsresume2015.pdf" download><h3>Download it here</h3></a> -->
+				<img class="img-zoom" id="resume" src="http://i.imgur.com/wJn205L.png">
+			</div>
+			<div class="logos">
+				<a href="https://www.linkedin.com/in/sspraggins86" target="_blank">
+				<img class="linkd" src="http://hockeytracker.net/wordpress/wp-content/plugins/all-author-page/images/linkedin.png"></a>
 
+				<a href="https://github.com/sspraggins86" target="_blank">
+				<img class="linkd" src="http://www.icon2s.com/wp-content/uploads/2013/10/Social-Github-icon.png"></a>
+			</div>
+		</div>
+</div>
+</div>
+	</div>
+</div>
 
-
-	 <script type="text/javascript" src="js/skrollr.min.js"></script>
-     <script type="text/javascript"></script>
-	 <script src="js/plugins.js"></script>
-     <script src="js/main.js"></script>
-     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script>
+		 $(document).ready(function(){
+		    $('.img-zoom').hover(function() {
+		        $(this).addClass('transition');
+		 
+		    }, function() {
+		        $(this).removeClass('transition');
+		    });
+		  });
+	</script>
+	<script type="text/javascript" src="../js/skrollr.min.js"></script>
+    <script type="text/javascript"></script>
+	<script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>

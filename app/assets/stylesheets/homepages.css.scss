@@ -10,34 +10,36 @@ html, body {
 	margin: 0;
 }
 
-.navigation {
-	padding: 0;
-	margin: 0;
-	background: #453266;
-	position: fixed;
-	top: 0;
-	z-index: 999;
-	width: 100%;
+/* top navbar */
 
-	li {
-		display: inline-block;
-		padding: 5px 10px;
+.navbar-custom {
+    background: #FFE4E1;
 
-		a {
-			color: #e1e1e1;
-			text-decoration: none;
-
-			&:hover {
-				color: lighten(#e1e1e1, 20%)
-			}
-		}
-	}
-
-	.active {
-		background-color: lighten(#453266, 20%)
-	}
 }
 
+.navbar-customer > li {
+ 	font-family: 'Indie Flower', sans-serif;
+}
+
+.navbar .nav > li > a {
+	color: white;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: pink;
+    background-color: white;
+}
+
+.navbar-header .navbar-brand {
+	color: white;
+}
+
+.navbar-header .navbar-brand > a:hover {
+    color: white;
+    background-color: #453266;
+}
+
+/* slides */
 .main {
 	margin-top: 30px;
 }
@@ -47,43 +49,217 @@ html, body {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	padding: 500px;
+	padding: 450px 50px 350px 50px;
+	margin-top: -80px;
+	z-index: -1;
 }
-
-.button {
-	display: block;
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	bottom: 25px;
-	left: 50%;
-	margin-left: -25px;
-	background-image: url(http://www.lepowglobal.com/wp-content/themes/lepowglobal/images/array_download.png);
-	background-size: 50px;
-	background-repeat: no-repeat;
-}
-
+/* slide 1 */
 #slide1 {
-	background-image: url(https://ahmadalijetplane.files.wordpress.com/2014/04/wallpaper-soap-rainbows-bubbles.jpg);
+	background-image: url(http://fc01.deviantart.net/fs70/f/2012/321/d/4/dandelion_by_lodchen_photography-d5l9z7h.jpg);
 	background-repeat: no-repeat;
 	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+#sydney {
+	margin-top: -160px;
+	position: center;
+	z-index: 80;
+	font-size: 70px;
+	color: purple;
+	font-family: Bookman Old Style;
+
+}
+
+#wd {
+	z-index: 50;
+	color: #FFFFE0;
+	font-family: Avenir Heavy;
+	position: right;
+	margin-right: 20px;
+	padding-right: -30px;
+	text-shadow: 2px 2px purple;
+	font-size: 30px;
+}
+
+.names {
+	margin-left: 300px;
+}
+
+/* slide 2 */
 #slide2 {
-	background-image: url(http://hdwallpapersfit.com/wp-content/uploads/2015/03/images-7.jpg);
+	background-image: url(https://download.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg);
 	background-repeat: no-repeat;
 	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 0;
+}
+#about {
+	color: pink;
+	text-shadow: 2px 2px grey;
+}
+
+#mepic {
+	transform: scaleX(-1);
+	margin-top: -250px;
+	border-radius: 100%;
+	border-style: 2px solid rgba(199,21,133,.5);
+}
+
+#bit {
+	color: pink;;
+	text-align: center;
+	margin-top: -180px;
+	padding-top: -100px;
+	text-shadow: 2px 2px #453266;
+}
+
+/* slide 3 */
+
+#center {
+	display:block;
+	margin-right: auto;
+	margin-left:auto;
+	text-align:center;
 }
 
 #slide3 {
-	background-image: url(https://ahmadalijetplane.files.wordpress.com/2014/04/wallpaper-soap-rainbows-bubbles.jpg);
+	background-image: url(http://wallpoper.com/images/00/45/08/12/trees-along-the-road-black-and-white_00450812.jpg);
 	background-repeat: no-repeat;
 	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 0;
 }
 
+#ttt {
+	width: 250px;
+	height: 250px;
+	border-style: 2px solid yellow;
+	z-index: 50;
+	opacity: 0.9;
+	margin-top: -250px;
+}
+
+#ttt:hover {
+	background-color: #FFFF66;}
+
+.ttt2 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#oc {
+	width: 250px;
+	height: 250px;
+	border-style: 2px solid yellow;
+	z-index: 50;
+	opacity: 0.9;
+	margin-top: -250px;
+}
+
+.oc2 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#d3 {
+	width: 250px;
+	height: 250px;
+	border-style: 2px solid rgb(255,250,205);
+	z-index: 0;
+	opacity: 0.9;
+	margin-top: -250px;
+	position: relative;
+}
+
+.d32 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.imageHolder .caption {
+ 	opacity: 0; 
+ 	position: absolute;   
+ 	color: white; 
+ 	height: 240px;
+ 	width: 240px;
+ 	background: black; 
+ 	text-align: center; 
+ 	font-weight:bold; 
+ 	margin-top: -253px;
+  	margin-left: 60px;
+ 	font-size: 30px;
+ } 
+
+
+.imageHolder:hover .caption { 
+	opacity: 0.7; 
+	z-index:100000;
+	}
+
+
+/* slide 4 */
 #slide4 {
-	background-image: url(http://hdwallpapersfit.com/wp-content/uploads/2015/03/images-7.jpg);
+	background-image: url(https://download.unsplash.com/photo-1422479516648-9b1f0b6e8da8);
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 0;
 }
 
+.center4 {
+display: block;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+margin-top: -380px;
+}
 
+.img-zoom {
+    width: 310px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+#myresume {
+color: white;
+text-shadow: 2px 2px #808080;
+}
+
+#resume {
+opacity: 0.9;
+}
+
+/*h3 {
+display: block;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+margin-top: -300px;
+font-size: 20px;
+}*/
+
+.linkd {
+text-align: center;
+margin-top: 15px;
+width: 40px;
+height: 40px;
+border-radius: 5%;
+}
 
